@@ -20,6 +20,7 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 0px;
+	font-stretch: lighter;
 
 
 
@@ -29,6 +30,11 @@ h1 {
 	color: #4aaaa5;
 }
 
+#main-bio {
+	position: relative; 
+
+}
+
 #name {
 	background-color: #4aaaa5;
 	font-size: 30px;
@@ -36,9 +42,11 @@ h1 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: white;
 	width: 250px;
-	height: 75px;
+	height: 70px;
 	text-align: center;
 	padding: 30px;
+	margin-top: 11px;
+	margin-left: 20px;
 
 }
 
@@ -46,11 +54,13 @@ h1 {
 	background-color: white;
 	font-size: 30px;
 	float: right;
-	font-family: 'Georgia';
+	font-family: 'arial';
 	color: #777;
 	position: absolute;
-	left: 650px;
+	top: 100px;
+	left: 820px;
 	font-size: 18px;
+	font-weight: -50%;
 
 
 
@@ -61,7 +71,7 @@ h1 {
 }
 
 
-.bio {
+.bio, .email, .portfolio {
 	background-color: white;
 	width: 610px;
 	position: relative;
@@ -77,6 +87,7 @@ h1 {
 	float: left;
 	position: absolute;
 	top: 150px;
+
 
 
 }
