@@ -2,7 +2,7 @@
 body {
 	background-image: url("https://github.com/paigepittman/Basic-Portfolio/blob/master/assets/images/light_grey_@2X.jpg?raw=true");
 	font-color: #777777;
-	width: 960px;
+	max-width: 940px;
 
 
 
@@ -10,7 +10,7 @@ body {
 
 .navigation {
 	background-color: white;
-	width: 970px;
+	width: 100%;
 	height: 100px;
 	padding: 40px;
 	border-style: solid;
@@ -37,18 +37,24 @@ h1 {
 
 #name {
 	background-color: #4aaaa5;
-	font-size: 30px;
+	font-size: 34px;
 	float: left;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: white;
 	width: 250px;
 	height: 70px;
 	text-align: center;
-	padding: 30px;
-	margin-top: 11px;
+	padding: 40px 30px 30px 30px;
+	margin-top: 2px;
 	margin-left: 20px;
 
 }
+a {
+	text-decoration: none;
+	color: #777;
+	font-size: 18px;
+}
+
 
 #links {
 	background-color: white;
@@ -61,6 +67,7 @@ h1 {
 	left: 820px;
 	font-size: 18px;
 	font-weight: -50%;
+	
 
 
 
@@ -68,6 +75,8 @@ h1 {
 
 #bio-img {
 	float: left;
+	opacity: 1;
+
 }
 
 
@@ -76,7 +85,7 @@ h1 {
 	width: 610px;
 	position: relative;
 	left: 20px;
-	padding: 34px;
+	padding: 20px;
 	margin-top: 70px;
 	margin-left: 40px;
 	border-style: solid;
@@ -90,6 +99,59 @@ h1 {
 
 
 
+}
+#port {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	opacity: .8;	
+}
+
+#hangman, #rpg, #trivia, #widget, #rock {
+
+	background-color: #4aaaa5;
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	font-family: Georgia;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	z-index: 1;
+}
+
+#hangman {
+	position: absolute;
+	left: 20px;
+	top: 230px;
+}
+
+#rpg {
+	position: absolute;
+	left: 324px;
+	top: 230px;
+
+}
+
+#trivia {
+	position: absolute;
+	left: 20px;
+	top: 460px;
+
+}
+
+#widget {
+	position: absolute;
+	left: 324px;
+	top: 460px;
+
+}
+
+#rock {
+	position: absolute;
+	left: 20px;
+	top: 685px;
 }
 
 
@@ -113,12 +175,46 @@ h1 {
 
 }
 
+.email {
+	font-family: arial;
+	font-size: 18px;
+	color: gray;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+textarea {
+	align-content: center;
+	width: 100%;
+	height: 400px;
+	border-color: lightgray;
+	margin: 20px 0px 20px 0px;
+
+
+}
+
+.submit {
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+
+
+}
+
 .footer {
 	position: absolute;
-	bottom: -40%;
+	bottom: -600px;
 	left: 0;
 	clear: both;
-	width: 960px;
+	width: 100%;
 	padding: 45px;
 	background-color: #666;
 	border-style: solid;
